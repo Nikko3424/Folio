@@ -2,9 +2,87 @@
 <html>
 <head>
 <Title>First Webpage</Title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<img src="https://via.placeholder.com/150"/>
-	<h1>Hello World, check out my website</h1>
+	<div class="container">
+	<div class="intro">
+	<img class="profile-picture" src="images/profile-picture.jpg"/>
+	<h1>Nick Mitch</h1>
+	<h3> Web developer</h3>
+	<p> <p class="quote">
+	 {{pause and ponder}}
+	</p>
+	</div>
+	<div>
+		<div class="about-grid">
+			<div class="i-am">
+			<h3>I am</h3>
+			<ul  class="about-list">
+				<li>Snowboarder</li>
+				<li>Swimmer</li>
+				<li>Health Advocate</li>
+			</ul>
+		</div>
+		<div class="i-like">
+			<h3>I Like</h3>
+			<ul  class="about-list">
+				<li>Good food</li>
+				<li>Great People</li>
+				<li>A good time</li>
+			</ul>
+		</div>
+</div>
+<div> 
+<h3 class="projects-heading">My Project</h3>
+		<div class="projects-grid">
+	
+<div class="project-image-wrapper">
+	<h4>Project 1</h4>
+	 <img class="project-image" src="images/project-1.jpg"/> 
+	</div>
+	<div class="project-image-wrapper"> 
+		<h4>Project 2</h4>
+		<img class="project-image" src="images/project-2.jpg"/>
+	</div>
+	<div class="project-image-wrapper">
+		<h4>Project 3</h4>
+		<img class="project-image" src="images/project-3.jpg"/>
+	</div>
+	<div class="project-image-wrapper">
+		<h4>Project 4</h4>
+		<img class="project-image" src="images/project-4.jpg"/> 
+	</div>
+
+
+</div>
+<div class="links-and-contact">
+	<div class="links">
+	<h3>Links</h3>
+
+	<ul class="links-list">
+		<li>
+			<a href="https://github.com/<user>">Github</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/<user>">Twitter</a>
+				</li>
+				<li>
+					<a href="https://linkedin.com/in/<user>">Linkedin</a>
+					</li>
+				</ul>
+			</div>
+<div>
+	<form action="#">
+		<label for="email">
+			Email: <input type="email" id="email" placeholder="Enter your email" />
+		</label>
+		<label for="message">
+			Message: <textarea id="message">Your Message</textarea>
+		</label>
+		<input type="submit" valid="Send Message"/>
+	</form>
+</div>
 </body>
 </html> 
